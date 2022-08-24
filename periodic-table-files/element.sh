@@ -1,3 +1,5 @@
+#/bin/bash
+
 db="psql --username=freecodecamp --dbname=periodic_table -A -t -c "
 
 if [[ $1 ]]
